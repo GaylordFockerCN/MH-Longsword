@@ -17,7 +17,6 @@ public class DragonEntityPatch extends MobPatch<Dragon> {
     @Override
     public void initAnimator(ClientAnimator animator) {
         animator.addLivingAnimation(LivingMotions.IDLE, LongSwordAnimations.DRAGON_IDLE);
-        animator.addLivingAnimation(LivingMotions.WALK, Animations.BIPED_WALK);
         animator.setCurrentMotionsAsDefault();
     }
 
